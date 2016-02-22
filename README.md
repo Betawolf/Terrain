@@ -20,3 +20,8 @@ view(to_image(waters(midpoint_displacement(heightmap(9))),contours))
 view(to_image(foliage(waters(midpoint_displacement(heightmap(9)))),life))
 ```
 ![example life map](http://xn--bta-yla.net/resources/images/2016-02-22-024922_1920x1080_scrot.png)
+
+```{julia}
+view(to_image(foliage(waters(midpoint_displacement(heightmap(9)))),forests))
+```
+![example forests map](http://xn--bta-yla.net/resources/images/2016-02-22-034241_1920x1080_scrot.png)
